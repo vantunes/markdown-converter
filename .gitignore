@@ -34,7 +34,3 @@ teste_*.py
 
 # Git
 .git/
-
-.testes/
-.testes_files/
-.00 bases/
