@@ -1,31 +1,36 @@
-MarkdownConverter/
-
+MarkdownConverter
+│
+├── .gitignore
+├── README.md
+├── requirements.txt
 │
 ├── main.py
-│
 ├── settings.py
 ├── converter.py
 ├── file_scanner.py
 ├── updater.py
 │
-├── services/
+├── check_environment.py
+│
+├── 01 instalar bibliotecas.bat
+├── 02 teste_environment.bat
+├── 03 iniciar.bat
+│
+├── services
+│   │
+│   ├── __init__.py
 │   ├── conversion_service.py
 │   ├── timer_service.py
 │   └── update_service.py
 │
-├── ui/
-│   ├── main_window.py
-│   ├── toolbar.py
+├── ui
+│   │
+│   ├── __init__.py
+│   ├── about_dialog.py
 │   ├── log_panel.py
+│   ├── main_window.py
 │   ├── preview_panel.py
 │   ├── progress_panel.py
-│   └── about_dialog.py
+│   └── toolbar.py
 │
-├── assets/
-│   └── icon.ico
-│
-├── logs/
-│
-├── requirements.txt
-│
-└── venv/
+└── venv

@@ -1,0 +1,3 @@
+git tag v2.2.1
+
+git push origin v2.2.1
