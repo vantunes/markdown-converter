@@ -36,3 +36,4 @@ teste_*.py
 .git/
 
 .testes/
+.testes_files/
