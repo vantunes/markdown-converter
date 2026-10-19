@@ -1,0 +1,17 @@
+# Interface
+
+customtkinter==6.0.0
+tkinterdnd2
+
+# Conversão Markdown
+
+markitdown
+pdfminer.six
+
+# Criptografia (dependência do pdfminer)
+
+cryptography==50.0.2
+
+# Empacotamento
+
+pyinstaller==6.22.3

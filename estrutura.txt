@@ -1,0 +1,31 @@
+MarkdownConverter/
+
+│
+├── main.py
+│
+├── settings.py
+├── converter.py
+├── file_scanner.py
+├── updater.py
+│
+├── services/
+│   ├── conversion_service.py
+│   ├── timer_service.py
+│   └── update_service.py
+│
+├── ui/
+│   ├── main_window.py
+│   ├── toolbar.py
+│   ├── log_panel.py
+│   ├── preview_panel.py
+│   ├── progress_panel.py
+│   └── about_dialog.py
+│
+├── assets/
+│   └── icon.ico
+│
+├── logs/
+│
+├── requirements.txt
+│
+└── venv/

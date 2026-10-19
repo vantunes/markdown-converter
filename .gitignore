@@ -1,0 +1,36 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+logs/
+*.log
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Backups
+*.zip
+*.rar
+Versions/
+
+# Testes temporários
+teste_*.py
+
+# Git
+.git/
