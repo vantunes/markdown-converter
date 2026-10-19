@@ -27,16 +27,11 @@ desktop.ini
 # Backups
 *.zip
 *.rar
+
 Versions/
+00 bases/
 
-# Testes temporários
+# Testes
 teste_*.py
-
-# Git
-.git/
-
-
-.testes/
-.testes_files/
-.00 bases/
-
+testes/
+testes_files/
