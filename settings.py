@@ -9,7 +9,7 @@ Configurações globais da aplicação
 
 APP_NOME = "Markdown Converter"
 
-APP_VERSAO = "2.2.0"
+APP_VERSAO = "2.3.0"
 
 APP_AUTOR = "vantunes & Microsoft/guitub Markdown"
 
