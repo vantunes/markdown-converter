@@ -5,8 +5,7 @@ tkinterdnd2
 
 # Conversão Markdown
 
-markitdown
-pdfminer.six
+markitdown[all]
 
 # Criptografia (dependência do pdfminer)
 
