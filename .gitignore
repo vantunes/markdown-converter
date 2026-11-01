@@ -35,3 +35,9 @@ Versions/
 teste_*.py
 testes/
 testes_files/
+
+# Instaladores
+installer/output/
+
+# Builds
+*.exe
