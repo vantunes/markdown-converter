@@ -15,13 +15,18 @@ Aplicação desktop desenvolvida em Python para converter documentos para Markdo
 
 ```bash
 python -m venv venv
+
 venv\Scripts\activate
 
 pip install -r requirements.txt
+```
 
-## Execução:
+## Execução
 
+```bash
 python main.py
+```
 
-Versões de instalação
-[📥 Descarregar Markdown Converter v2.3.0](https://github.com/vantunes/markdown-converter/releases/download/v2.3.0/MarkdownConverterSetup_v2.3.0.exe)
+## Download
+
+[MarkdownConverterSetup_v2.3.0.exe](https://github.com/vantunes/markdown-converter/releases/download/v2.3.0/MarkdownConverterSetup_v2.3.0.exe)
