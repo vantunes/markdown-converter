@@ -229,3 +229,21 @@ Sem estas bibliotecas o desenvolvimento desta aplicação não seria possível.
 ## Licença
 
 Projeto de uso pessoal e educativo.
+
+---
+
+## Apoiar o Projeto
+
+O Markdown Converter é desenvolvido de forma independente.
+
+Se esta ferramenta lhe foi útil e desejar apoiar futuras melhorias, pode considerar um donativo voluntário.
+
+### 💙 PayPal
+
+https://paypal.me/rootiv
+
+### 💜 Revolut
+
+https://revolut.me/vitor0as
+
+Obrigado pelo apoio!
