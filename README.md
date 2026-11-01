@@ -205,7 +205,7 @@ MarkdownConverter
 
 ## Autor
 
-Victor Antunes
+vantunes
 
 ---
 
