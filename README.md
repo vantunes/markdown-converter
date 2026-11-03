@@ -14,14 +14,28 @@ Permite converter rapidamente um único documento para Markdown.
 
 Formatos suportados pelo MarkItDown:
 
+### Conversão Individual
+
+Permite converter rapidamente um único documento para Markdown.
+
+#### Formatos suportados
+
 - PDF
 - DOCX
 - PPTX
 - XLSX
 - HTML
 - TXT
-- Outros formatos suportados pela biblioteca
+- Outros formatos suportados pelo MarkItDown
 
+#### Funcionalidades
+
+- Conversão PDF → Markdown
+- Conversão DOCX → Markdown
+- Conversão em lote
+- Preview Markdown
+- OCR automático para PDFs digitalizados
+- Suporte para documentos em Português
 ---
 
 ### Conversão em Lote
@@ -60,6 +74,20 @@ Permite verificar e atualizar automaticamente as bibliotecas necessárias ao fun
 
 ---
 
+## OCR para PDFs Digitalizados
+
+O Markdown Converter deteta automaticamente documentos PDF digitalizados e aplica OCR antes da conversão para Markdown.
+
+Tecnologias utilizadas:
+
+- OCRmyPDF
+- Tesseract OCR
+- Ghostscript
+
+Esta funcionalidade permite converter documentos provenientes de scanners, fotocopiadoras e digitalizações antigas.
+
+---
+
 ## Interface da Aplicação
 
 A interface gráfica foi desenvolvida com CustomTkinter e inclui:
@@ -78,6 +106,9 @@ Este projeto utiliza diversas bibliotecas open source:
 
 - Python 3.13
 - MarkItDown
+- OCRmyPDF
+- Tesseract OCR
+- Ghostscript
 - CustomTkinter
 - TkinterDnD2
 - Magika
@@ -185,22 +216,28 @@ MarkdownConverter
 
 ### Versão 2.4
 
-- Drag & Drop
-- Melhorias do cronómetro
-- Otimização da interface
+✅ OCR automático para PDFs digitalizados
+✅ Integração Tesseract OCR
+✅ Integração OCRmyPDF
+✅ Integração Ghostscript
 
 ### Versão 2.5
 
+- Drag & Drop
 - Exportação de logs
 - Configurações persistentes
+
+### Versão 2.6
+
 - Melhorias de desempenho
+- Histórico de conversões
+- Melhorias da interface
 
 ### Versão 3.0
 
-- Sistema de atualização automática
-- Instalador otimizado
-- Novos formatos suportados
-
+- Atualização automática
+- Instalação automática de dependências OCR
+- Suporte para novos formatos
 ---
 
 ## Autor
