@@ -3,6 +3,9 @@ from file_scanner import procurar_ficheiros
 
 from services.timer_service import TimerService
 
+from pathlib import Path
+
+from services.ocr_service import OCRService
 
 class ConversionService:
 
@@ -13,7 +16,18 @@ class ConversionService:
     # =====================================
     # CONVERSÃO DE UM FICHEIRO
     # =====================================
+    
+    def prepare_pdf(self, file_path):
 
+        path = Path(file_path)
+
+        if path.suffix.lower() != ".pdf":
+            return file_path
+
+        return OCRService.process_pdf(
+            file_path
+        )
+    
     def convert_file(
         self,
         file_path
@@ -21,8 +35,14 @@ class ConversionService:
 
         self.timer.start()
 
-        md_file = converter_ficheiro(
+
+        prepared_file = self.prepare_pdf(
             file_path
+        )
+
+
+        md_file = converter_ficheiro(
+            prepared_file
         )
 
         elapsed = (
@@ -74,8 +94,12 @@ class ConversionService:
 
             try:
 
-                md_file = converter_ficheiro(
+                prepared_file = self.prepare_pdf(
                     file_path
+                )
+
+                md_file = converter_ficheiro(
+                    prepared_file
                 )
 
                 elapsed_file = (

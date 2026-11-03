@@ -7,6 +7,10 @@ tkinterdnd2
 
 markitdown[all]
 
+# OCR
+
+ocrmypdf
+
 # Criptografia (dependência do pdfminer)
 
 cryptography==50.0.2
