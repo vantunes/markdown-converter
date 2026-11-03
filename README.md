@@ -120,9 +120,9 @@ Este projeto utiliza diversas bibliotecas open source:
 
 ## Download
 
-A versão mais recente pode ser obtida em:
+👉 Visite a página Releases para descarregar a versão mais recente do instalador Windows.
 
-👉 https://github.com/vantunes/markdown-converter/releases
+https://github.com/vantunes/markdown-converter/releases
 
 ---
 
@@ -271,9 +271,9 @@ Projeto de uso pessoal e educativo.
 
 ## Apoiar o Projeto
 
-O Markdown Converter é desenvolvido de forma independente.
+O Markdown Converter é desenvolvido de forma independente e disponibilizado gratuitamente.
 
-Se esta ferramenta lhe foi útil e desejar apoiar futuras melhorias, pode considerar um donativo voluntário.
+Se esta ferramenta lhe foi útil e pretende apoiar o desenvolvimento de novas funcionalidades, pode considerar um donativo voluntário.
 
 ### 💙 PayPal
 
@@ -282,5 +282,7 @@ https://paypal.me/rootiv
 ### 💜 Revolut
 
 https://revolut.me/vitor0as
+
+Qualquer contribuição ajuda na manutenção, desenvolvimento e evolução do projeto.
 
 Obrigado pelo apoio!
